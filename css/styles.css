@@ -118,10 +118,14 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts-list {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .logotype {
   margin-right: 93px;
@@ -202,14 +206,18 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.section-about-us .conteiner {
+
+.about-us .conteiner {
   display: flex;
   align-items: center;
+}
+.about-us {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .list-about-us {
   display: flex;
   align-items: center;
-  padding-top: 94px;
 }
 .list-about-us-title {
   margin-bottom: 10px;
@@ -225,9 +233,11 @@ img {
 
 /*===============WHAT WE DO==================*/
 .title-what-we-do {
-  padding-top: 94px;
   text-align: center;
   margin-bottom: 50px;
+}
+.what-we-do-section {
+  padding-bottom: 94px;
 }
 
 .list-what-we-do {
@@ -255,11 +265,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.our-team-section {
+.our-team-section .conteiner {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .title-our-team {
-  padding-top: 94px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -315,15 +326,13 @@ img {
 }
 .footer .conteiner {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-adress {
   padding-top: 20px;
 }
 .footer-contacts {
   padding-top: 9px;
-}
-.footer-tel {
-  padding-bottom: 60px;
 }
 
 /*==============PORTFOLIO=================*/
